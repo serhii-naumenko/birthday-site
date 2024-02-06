@@ -5,13 +5,17 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(#0580f3, #f2f205);
     color: #ffffff;
     padding: 20px;
 }
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
+}
+
+.see {
+  font-size: 30px;
 }
 
 #bff-img {
