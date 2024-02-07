@@ -6,8 +6,15 @@ body {
     text-align: center;
     font-family: 'Happy Monkey', sans-serif;
     background: linear-gradient(#0580f3, #f2f205);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #ffffff;
     padding: 20px;
+  }
+  
+.body-start {
+  height: 100VH;
 }
 
 h1, h2, h3, h4, p {
@@ -69,6 +76,8 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #gift-img-happy:hover {
